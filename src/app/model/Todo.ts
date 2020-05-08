@@ -1,8 +1,6 @@
 export interface Todo {
+  _id?: string;
   name: string;
   value: string;
 }
 
-export interface MyObject {
-  text: string;
-}
